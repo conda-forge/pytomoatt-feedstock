@@ -31,7 +31,6 @@ requirements:
     - ruamel.yaml
     - xarray
     - tqdm
-    - obspy
     - pyproj
     - scikit-learn
     - ruamel_yaml
