@@ -1,5 +1,5 @@
 {% set name = "pytomoatt" %}
-{% set version = "0.2.6" %}
+{% set version = "0.2.7" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pytomoatt-{{ version }}.tar.gz
-  sha256: 191b9aa605c968fe09b4b38d0d92a3441bbacfce301f1a95a203dbfc85c3f02d
+  sha256: 49e720b140ba8142b34b9fc33e9ae74ffc9a2ae664457ac1f7d256430eca723a
 
 build:
   entry_points:
