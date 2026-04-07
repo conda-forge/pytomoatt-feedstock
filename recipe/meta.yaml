@@ -33,7 +33,6 @@ requirements:
     - tqdm
     - pyproj
     - scikit-learn
-    - ruamel_yaml
     - urllib3
 
 test:
