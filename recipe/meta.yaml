@@ -1,6 +1,6 @@
 {% set name = "pytomoatt" %}
 {% set version = "0.2.13" %}
-{% set python_min = "3.9" %}
+{% set python_min = "3.10" %}
 
 package:
   name: {{ name|lower }}
@@ -24,7 +24,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - numpy >=1.19.0
+    - numpy >=1.26.4
     - pandas >=1.4.0
     - scipy
     - h5py
